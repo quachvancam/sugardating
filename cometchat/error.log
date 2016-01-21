@@ -1,0 +1,8 @@
+[28-Oct-2013 11:53:32 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\www\htdocs\sugardating\cometchat\cometchat_init.php on line 143
+[28-Oct-2013 11:53:32 Europe/Berlin] PHP Deprecated:  Function mysql_selectdb() is deprecated in D:\www\htdocs\sugardating\cometchat\cometchat_init.php on line 148
+[28-Oct-2013 11:54:13 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\www\htdocs\sugardating\cometchat\cometchat_init.php on line 143
+[28-Oct-2013 11:54:13 Europe/Berlin] PHP Deprecated:  Function mysql_selectdb() is deprecated in D:\www\htdocs\sugardating\cometchat\cometchat_init.php on line 148
+[28-Oct-2013 11:54:38 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\www\htdocs\sugardating\cometchat\cometchat_init.php on line 143
+[28-Oct-2013 11:54:38 Europe/Berlin] PHP Deprecated:  Function mysql_selectdb() is deprecated in D:\www\htdocs\sugardating\cometchat\cometchat_init.php on line 148
+[28-Oct-2013 11:54:56 Europe/Berlin] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in D:\www\htdocs\sugardating\cometchat\cometchat_init.php on line 143
+[28-Oct-2013 11:54:56 Europe/Berlin] PHP Deprecated:  Function mysql_selectdb() is deprecated in D:\www\htdocs\sugardating\cometchat\cometchat_init.php on line 148

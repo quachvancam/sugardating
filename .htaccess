@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^admin/(.*)$ backend.php?/$1 [L]
+    RewriteRule ^admin/$ backend.php [L]
+    RewriteRule ^admin$ backend.php [L]
+    
+    #Checks to see if the user is attempting to access a valid file,
+    #such as an image or css document, if this isn't true it sends the
+    #request to index.php
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	#RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+    RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+    
+    #Chuyen sang https
+    #RewriteBase /breedlove/
+    #RewriteCond %{HTTP_HOST} !^www\.
+    #RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/hvidtiger/$1 [R=301,L]
+   
+</IfModule>

@@ -1,0 +1,1 @@
+<img src="<?php echo base_url().'thumbnail/timthumb.php?src='.base_url().get_config_value('upload_avatar_path').$image;?>&q=100&w=200&h=280" alt=""/>

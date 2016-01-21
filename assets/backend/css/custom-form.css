@@ -1,0 +1,35 @@
+body {
+	/*font: 0.8em/21px arial,sans-serif;*/
+}
+
+.checkbox, .radio {
+	width: 20px;
+	height: 20px;
+	padding: 0 5px 0 0;
+	display: block;
+	clear: left;
+	float: left;
+}
+.radio {
+	width: 15px;
+	height: 15px;
+	background: url(../img/imgRadio.png) no-repeat;
+}
+/* edit */
+.checkbox{
+	clear:none;
+	float:left;
+	background: url(../img/imgCheckbox.png) no-repeat;
+	/*margin-top:7px;*/
+	/*margin-left:5px;*/
+}
+.select {
+	position: absolute;
+	width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 23px;
+	padding: 0 24px 0 8px;
+	color: #fff;
+	font: 12px/21px arial,sans-serif;
+	background: url(../img/imgSelect.png) no-repeat;
+	overflow: hidden;
+}

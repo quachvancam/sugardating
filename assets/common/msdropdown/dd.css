@@ -1,0 +1,232 @@
+﻿/************** Skin 1 *********************/
+.dd {
+	/*display:inline-block !important;*/
+	text-align:left;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:left;
+}
+.dd .ddTitle {
+	border:1px solid #c3c3c3;
+	padding:8px;
+	text-indent:0;
+	cursor:default;
+	overflow:hidden;
+	color: #000;
+}
+.dd .ddTitle span.arrow {
+	background:url(dd_arrow.gif) no-repeat 0 0; float:right; display:inline-block;width:16px; height:16px; cursor:pointer;
+}
+
+.dd .ddTitle span.ddTitleText {text-indent:1px; overflow:hidden; line-height:16px;}
+.dd .ddTitle span.ddTitleText img{text-align:left; padding:0 2px 0 0}
+.dd .ddTitle img.selected {
+	padding:0 3px 0 0;
+	vertical-align:top;
+}
+.dd .ddChild {
+	position:absolute;
+	border:1px solid #c3c3c3;
+	border-top:none;
+	display:none;
+	margin:0;
+	width:auto;
+	overflow:auto;
+	overflow-x:hidden !important;
+	background-color:#ffffff;
+}
+.dd .ddChild .opta a, .dd .ddChild .opta a:visited {padding-left:10px}
+.dd .ddChild a {
+	display:block;
+	padding:2px 0 2px 3px;
+	text-decoration:none;
+	color:#000;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+}
+.dd .ddChild a:hover {
+	background-color:#66CCFF;
+}
+.dd .ddChild a img {
+	border:0;
+	padding:0 2px 0 0;
+	vertical-align:middle;
+}
+.dd .ddChild a.selected {
+	background-color:#66CCFF;
+
+}
+.hidden {display:none;}
+
+/************** Skin 2 *********************/
+.dd2 {
+	/*display:inline-block !important;*/
+	text-align:left;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:left;
+}
+.dd2 .ddTitle {
+	background:transparent url(../images/msDropDown.gif) no-repeat;
+	padding:0 3px;
+	text-indent:0;
+	cursor:default;
+	overflow:hidden;
+/*	height:36px;
+*/}
+.dd2 .ddTitle span.arrow {
+	background:transparent url(../images/icon-arrow.gif) no-repeat 0 0; float:right; display:inline-block;width:27px; height:27px; cursor:pointer; top:5px; position:relative; right:2px;
+}
+
+.dd2 .ddTitle span.ddTitleText {text-indent:1px; overflow:hidden; line-height:33px; font-family:Georgia, "Times New Roman", Times, serif; font-size:16px; font-weight:bold; color:#fff;}
+.dd2 .ddTitle span.ddTitleText img{text-align:left; padding:0 2px 0 0;}
+.dd2 .ddTitle img.selected {
+	padding:0 2px 0 0;
+	vertical-align:top;
+}
+.dd2 .ddChild {
+	position:absolute;
+	border:1px solid #c3c3c3;
+	border-top:none;
+	display:none;
+	margin:0;
+	width:auto;
+	overflow:auto;
+	overflow-x:hidden !important;
+	background-color:#ffffff;
+	font-size:14px;
+}
+.dd2 .ddChild .opta a, .dd2 .ddChild .opta a:visited {padding-left:10px}
+.dd2 .ddChild a {
+	display:block;
+	padding:3px 0 3px 3px;
+	text-decoration:none;
+	color:#000;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+}
+.dd2 .ddChild a:hover {
+	background-color:#66CCFF;
+}
+.dd2 .ddChild a img {
+	border:0;
+	padding:0 2px 0 0;
+	vertical-align:middle;
+}
+.dd2 .ddChild a.selected {
+	background-color:#66CCFF;
+}
+
+/************* use sprite *****************/
+.dd .ddChild a.sprite, .dd .ddChild a.sprite:visited {
+	background:#fff url(../img/ico.png) no-repeat;
+	height: 24px;
+	padding-left:37px;
+}
+
+.dd .ddChild a.movie, .dd .ddChild a.movie:visited {
+	background-position:-46px -43px;
+
+}
+.dd .ddChild a.brunch, .dd .ddChild a.brunch:visited {
+	background-position:-42px -78px;
+}
+.dd .ddChild a.coffee, .dd .ddChild a.coffee:visited {
+	background-position:-45px -108px;
+
+}
+.dd .ddChild a.bar, .dd .ddChild a.bar:visited {
+	background-position:-46px -141px;
+
+}
+.dd .ddChild a.restaurant, .dd .ddChild a.restaurant:visited {
+	background-position:-43px -170px;
+
+}
+.dd .ddChild a.snack, .dd .ddChild a.snack:visited {
+	background-position:-44px -202px;
+
+}
+.dd .ddChild a.travel, .dd .ddChild a.travel:visited {
+	background-position:-47px -228px;
+
+}
+.dd .ddChild a.getaway, .dd .ddChild a.getaway:visited {
+	background-position:-47px -260px;
+
+}
+.dd .ddChild a.outdoor, .dd .ddChild a.outdoor:visited {
+	background-position:-45px -293px;
+
+}
+.dd .ddChild a.sports, .dd .ddChild a.sports:visited {
+	background-position:-47px -325px;
+
+}
+.dd .ddChild a.other, .dd .ddChild a.other:visited {
+	background-position:-45px -362px;
+
+}
+.dd .ddChild a.wellness, .dd .ddChild a.wellness:visited {
+	background-position:-51px -391px;
+
+}
+.dd .ddChild a.leisure, .dd .ddChild a.leisure:visited {
+	background-position:-46px -416px;
+
+}
+.dd .ddChild a.spoil, .dd .ddChild a.spoil:visited {
+	background-position:-45px -447px;
+
+}
+.dd .ddChild a.culture, .dd .ddChild a.culture:visited {
+	background-position:-48px -485px;
+
+}
+.dd .ddChild a.events, .dd .ddChild a.events:visited {
+	background-position:-49px -520px;
+
+}
+.dd .ddChild a.packed, .dd .ddChild a.packed:visited {
+	background-position:-43px -555px;
+
+}
+.dd .ddChild a.fun, .dd .ddChild a.fun:visited {
+	background-position:-49px -590px;
+
+}
+.dd .ddChild a.extraordinary, .dd .ddChild a.extraordinary:visited {
+	background-position:-43px -626px;
+
+}
+.dd .ddChild a.sweet, .dd .ddChild a.sweet:visited {
+	background-position:-47px -659px;
+
+}
+.dd .ddChild a.sexy, .dd .ddChild a.sexy:visited {
+	background-position:-47px -693px;
+
+}
+.dd .ddChild a.naughty, .dd .ddChild a.naughty:visited {
+	background-position:-44px -733px;
+
+}
+.dd .ddChild a.miscellaneous, .dd .ddChild a.miscellaneous:visited {
+	background-position:-45px -771px;
+}
+.ddChild{
+	
+	padding-left: 10px !important;
+	width: 258px !important;
+}
+.ddTitleText{
+	padding-bottom: 10px !important;
+}
+.dd .ddTitle{
+	padding:8px 8px 10px;
+}
+/*******************************/
